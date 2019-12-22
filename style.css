@@ -1,0 +1,58 @@
+.zigzag-text-bg-1{background-image: url(img/task2img1.jpg);}
+.zigzag-text-bg-2{background-image: url(img/task2img2.jpeg);}
+.middle{
+    height: 10px;
+    background:  #bad431;
+    width: 100%;
+}
+
+.section-padding{
+    background-size: cover;
+    background-position: center;
+}
+.zigzag-text{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding-right: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+.zigzag-text:after{
+    position: absolute;
+    left: -4900%;
+    top: 0;
+    height: 100%;
+    width: 5000%;
+    background-color:#042352;
+    content: "";
+    z-index: -1;
+    transform: skew(10deg);
+}
+.boxed-btn{
+    background: #bad431;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+.boxed-btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.zigzag-text-bg-2
+.zigzag-text:after{
+    left: auto;
+    right: -4900%;
+    background: #31d6be;
+}
+.zigzag-text-bg-2
+.zigzag-text{
+    padding-left: 50px;
+    padding-right: 0;
+
+}
+
